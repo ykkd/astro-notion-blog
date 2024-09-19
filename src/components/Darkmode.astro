@@ -1,5 +1,6 @@
 /* --------------------
 ref: https://astrock.gdgd.win/posts/darkmode-toggle/
+ref: https://suzu-mono-gram.com/blog/astro-notion-blog-memo/
 -------------------- */
 ---
 ---
@@ -14,7 +15,7 @@ ref: https://astrock.gdgd.win/posts/darkmode-toggle/
 layout.astro
 -------------------- */
 :root.darkmode {
-  --bg: #191919;
+  --bg: #272822;
   --fg: #d5d5d5;
   --accents-1: #864C1D;
   --accents-2: #f26000;
@@ -91,18 +92,18 @@ Callout.astro
 Code.astro
 -------------------- */
 .darkmode .code pre {
-  background: #272727 !important;
+  background: #555555 !important;
 }
 .darkmode .code pre code {
   color: var(--fg);
-  background: #272727 !important;
+  background: #555555 !important;
 }
 .darkmode code {
   background: #2F2F2D;
 }
 
 .darkmode .code > div {
-  background: #272727;
+  background: #555555;
 }
 
 .darkmode .code button.copy {
